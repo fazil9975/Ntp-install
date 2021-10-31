@@ -1,6 +1,6 @@
 ---
 - name: install initial packages on all boxes
-  hosts: 192.168.1.14
+  hosts: ntp-clients
   remote_user: ansible
   become: yes
   tasks:

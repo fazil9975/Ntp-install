@@ -1,6 +1,6 @@
 ---
 - name: install initial packages on all boxes
-  hosts: ntpservers
+  hosts: ntp-servers
   remote_user: ansible
   become: yes
 
